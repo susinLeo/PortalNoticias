@@ -1,0 +1,440 @@
+body {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+#main-navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fcfcfc;
+    border-bottom: 1px solid #eee;
+    min-width: 1190px;
+}
+
+#main-navbar-top {
+    display: block;
+    height: 2.5rem;
+    background: black;
+}
+
+#main-navbar-body {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    padding: 1.7rem 0;
+    border-bottom: 3px solid black;
+}
+
+#main-navbar-brand {
+    max-width: 12rem;
+}
+
+#main-navbar-link {
+    width: 1188px;
+    margin: auto;
+    display: flex;
+    padding: 1.2rem 0;
+}
+
+#main-navbar-input {
+    min-width: 13rem;
+    height: 2.3rem;
+    margin: auto 3px;
+    border: 1px solid #c3c3c3;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #888;
+    font-size: 12px;
+    letter-spacing: 0.6px;
+    outline: 0;
+    padding-left: 1.2rem;
+    font-size: 0.8rem;
+    float: right;
+    margin-left: auto;
+}
+
+#main-navbar-input:hover {
+    box-shadow: 0px 0px 20px 0px rgba(255, 107, 36, 0.39);
+}
+
+#main-navbar ul {
+    list-style: none;
+    display: inline-flex;
+    padding: 0;
+    margin: 0;
+    font-size: 1rem;
+}
+
+#main-navbar ul li {
+    padding-right: 1rem;
+    cursor: pointer;
+    width: 100%;
+    white-space: nowrap;
+    font-size: 0.68rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #464646;
+    font-size: 0.79rem;
+    letter-spacing: 1px;
+}
+
+#site-page {
+    margin: 13.3rem 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    height: 100%;
+}
+
+#title_center {
+    text-align: center;
+    font-size: 38px
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 300;
+}
+
+.img-legend {
+    display: block;
+    font-size: 14px;
+}
+
+#news-title {
+    font-size: 38px;
+    font-weight: 700;
+    margin: 1.4rem 0;
+}
+
+#title_center_color {
+    margin: 1rem 0;
+    text-align: center;
+    font-size: 14px !important;
+}
+
+img.center_image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#center_video {
+    text-align: center;
+}
+
+#title_center_color2 {
+    text-align: center;
+    color: green;
+}
+
+#size_center {
+    font-size: 30px;
+    text-align: center;
+}
+
+#top-banner {
+    width: 100%;
+    height: 17rem;
+    background: url(https://conteudo.imguol.com.br/c/home/layout/camaleao/web/gerais/bg-listras.png);
+    display: flex;
+}
+
+#top-banner img {
+    margin: auto;
+}
+
+#site-content {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 1rem;
+    display: flex;
+}
+
+#full-content {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#left-content {
+    width: 60%;
+}
+
+#right-content {
+    width: 40%;
+}
+
+#left-content-reverse {
+    width: 40%;
+}
+
+#right-content-reverse {
+    width: 60%;
+}
+
+#right-content img {
+    width: 22rem;
+}
+
+#right-content a {
+    margin: 0 auto;
+}
+
+small {
+    display: block;
+    color: #cb0003;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-size: 12px !important;
+}
+
+#main-text {
+    font-size: 3rem;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+a:hover {
+    color: #cb0003 !important;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+}
+
+span {
+    font-weight: 300;
+}
+
+.last-news {
+    display: block;
+    border-left: 3px solid #cb0003;
+    padding: 0.1rem 0.6rem;
+    margin: 0.6rem 0;
+}
+
+.box {
+    background: #cb0003;
+    margin: 2rem 0;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 300;
+    display: flex;
+}
+
+.box div {
+    padding: 1rem;
+}
+
+.box-title {
+    text-transform: uppercase;
+    display: block;
+    height: 100%;
+    border-right: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.box-text {
+    background-image: linear-gradient( 92deg, #da0104, #9e0305);
+    width: 100%;
+}
+
+#news-content {
+    width: 100%;
+    display: flex;
+}
+
+#news-content-left,
+#news-content-middle {
+    width: 35%;
+    display: flex;
+}
+
+#news-content-right {
+    width: 30%;
+}
+
+.box-news-title {
+    margin: 7px 0;
+    display: block;
+    font-weight: 500 !important;
+}
+
+#news-content a {
+    font-size: 21px;
+}
+
+.box-news img {
+    width: 12rem;
+    height: 10rem;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.placar {
+    display: flex;
+    padding: 0 0.5rem;
+}
+
+.result {
+    font-size: 32px !important;
+    font-weight: 700;
+    padding: 0px 1rem;
+}
+
+.vs {
+    margin: auto;
+    font-size: 12px;
+}
+
+.placar-team-name {
+    display: block;
+    font-size: 12px;
+}
+
+.placar-content {
+    padding: 1rem;
+    display: flex;
+    text-align: center;
+}
+
+.placar-box img {
+    width: 1.5rem;
+}
+
+.placar-title {
+    padding: 1rem;
+    text-align: center;
+    background-image: linear-gradient( 92deg, #da0104, #9e0305);
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.placar-box {
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    padding-bottom: 10px;
+}
+
+.placar-box span {
+    font-size: 12px;
+}
+
+.center {
+    text-align: center;
+    margin: 0 auto;
+}
+
+#full-content img {
+    margin-top: 2rem;
+    width: 39rem;
+}
+
+.img-box {
+    display: flex;
+}
+
+.img-news {
+    margin: 0 auto;
+}
+
+.news-box {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.news-box img {
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.news-box p {
+    font-size: 22px;
+    line-height: 2.1rem;
+}
+
+.box-news-small {
+    display: flex;
+}
+
+.box-news-small .news-content-small {
+    margin: auto;
+    width: 12rem;
+    margin-top: 2rem;
+}
+
+.box-news-small .box-news img {
+    width: 100%;
+}
+
+.box-news-small small {
+    font-weight: 300 !important;
+}
+
+.box-news-small .box-news-title {
+    font-weight: 300 !important;
+    font-size: 15px !important;
+}
+
+form {
+    display: grid;
+    padding: 0 3rem;
+    text-align: initial;
+    font-weight: 300 !important;
+}
+
+form button {
+    text-transform: uppercase;
+    padding: 1rem;
+    outline: 0;
+    background-image: linear-gradient( 92deg, #f5a95c, #ff6a00);
+    color: #fff;
+    border: 1px solid #f15f00;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-image: linear-gradient( 92deg, #ff6a00, #f5a95c);
+}
+
+form label {
+    padding: 0.4rem 0;
+}
+
+form input {
+    padding: 0.7rem;
+    outline: 0;
+    border: 1px solid rgba(136, 136, 136, 0.19);
+    border-radius: 5px;
+}
+
+form input:not(:first-child) {
+    margin-bottom: 1rem;
+}
+
+footer {
+    padding: 2rem;
+    text-align: center;
+    background: #fcfcfc;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.div-center {
+    display: flex;
+}
+
+.div-center img {
+    margin: auto;
+}
